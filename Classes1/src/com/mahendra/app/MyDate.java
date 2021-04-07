@@ -42,6 +42,10 @@ public class MyDate {
 		}
 	}
 	
+	protected void finalize() throws Throwable {
+		super.finalize();
+		System.out.println("About to be erased !");
+	}
 	public void print() {
 		System.out.println(day+ MyDate.SEPERATOR.toString() + month+ MyDate.SEPERATOR.toString() +year);
 	}
