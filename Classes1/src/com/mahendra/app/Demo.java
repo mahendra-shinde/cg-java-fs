@@ -9,7 +9,7 @@ public class Demo {
 		gr.message = "Hello World";
 		
 		// I DO NOT CARE HOW YOU IMPLEMENTED 
-		InterestCalculator calc = // YOUR CLASS // new CompoundInterest();
+		InterestCalculator calc =  new CompoundInterest();
 		//I WANT THESE METHODS!!
 		calc.setDuration(36);
 		calc.setPrincipal(130000D);
